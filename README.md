@@ -46,3 +46,17 @@ Then you can use the following to create a *Thing*:
 Thing thing = Thing.newBuilder().setFile(file).setWidth(100).build();
 thing.getWidth() == 100; // true
 </pre>
+
+# Building
+
+To build:
+
+<pre>
+mvn compile
+</pre>
+
+To push assets to github:
+
+<pre>
+mvn deploy
+</pre>
