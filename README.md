@@ -34,7 +34,7 @@ creating an instance of *com.jeffpalm.genericbuilder.GenericBuilder*:
 class Thing {
   // ....
   public static Builder newBuilder() {
-    return new GenericBuilder<Builder>(
+    return new GenericBuilder&lt;Builder&gt;(
          new Thing(), Builder.class).asBuilder();
   }
 }
