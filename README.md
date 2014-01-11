@@ -1,4 +1,4 @@
-= Description
+# Description
 
 A small Java library to implement the builder pattern more easily.
 
@@ -10,7 +10,7 @@ idiom we support is the follwoing:
 * You have an interface *C.Builder* with methods `setF1()`, `setF2()`, etc..
 * Use this library to create a method on `C.newBuilder()` to create an instance of `C.Builder` in one line without writing any extra code.
 
-= Usage
+# Usage
 
 Suppose you have the class `Thing` with builder interface
 `Thing.Builder`:
